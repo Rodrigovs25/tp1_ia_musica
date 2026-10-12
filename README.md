@@ -44,7 +44,7 @@ sudo apt install fluidsynth
 brew install fluidsynth
 ```
 
-O `sintetizador.py` precisa do soundfont `FluidR3_GM.sf2` na pasta do projeto. Ele não está no repositório por causa do tamanho (141 MB). No Linux (Ubuntu/Debian), `sudo apt install fluid-soundfont-gm` o instala em `/usr/share/sounds/sf2/FluidR3_GM.sf2`, e basta copiá-lo para a pasta do projeto. Em outros sistemas, qualquer soundfont General MIDI (`.sf2`) serve, ajustando o nome no `sintetizador.py`.
+O soundfont `GeneralUser_GS.sf2` já está na pasta do projeto.
 
 ## Execução
 
